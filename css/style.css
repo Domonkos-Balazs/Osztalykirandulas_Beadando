@@ -63,3 +63,13 @@ header p{
 .mb-4{
     padding-top: 100px;
 }
+#sec4{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/galeria.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#sec4 h1{
+    padding-top: 100px;
+}
