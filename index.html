@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="css/baguetteBox.min.css" type="text/css">
+    <link rel="stylesheet" href="css/gallery-grid.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Osztálykirándulás</title>
 </head>
@@ -28,8 +31,8 @@
                 Egyéb
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Közlekedési eszközök</a>
-                <a class="dropdown-item" href="#">Képgaléria</a>
+                <a class="dropdown-item" href="#sec3">Közlekedési eszközök</a>
+                <a class="dropdown-item" href="#sec4">Képgaléria</a>
               </div>
             </li>
           </ul>
@@ -166,12 +169,117 @@
 
     <section id="sec4">
         <div id="sec4_div">
-
+            <div class="container">
+                <div class="container gallery-container">
+                    <h1>Képgaléria</h1>
+                    <p class="page-description text-center">Osztálykirándulás képei</p>
+                    <div class="tz-gallery">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep1.JPG" class="lightbox">
+                                        <figure><img src="images/galeriakep1.JPG" alt="" class="card-img-top">
+                                            <figcaption class="figure-caption">Szent István Lovas szobra</figcaption>
+                                        </figure>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep2.JPG" class="lightbox">
+                                        <figure>
+                                    <img src="images/galeriakep2.JPG" alt="" class="card-img-top">
+                                <figcaption class="figure-caption">Kilátás Budapestre</figcaption>
+                                </figure>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep3.JPG" class="lightbox">
+                                        <figure>
+                                    <img src="images/galeriakep3.JPG" alt="" class="card-img-top">
+                                <figcaption class="figure-caption">Parlament</figcaption>
+                                </figure>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep4.JPG" class="lightbox">
+                                        <figure>
+                                    <img src="images/galeriakep4.JPG" alt="" class="card-img-top">
+                                <figcaption class="figure-caption">Kilátás Budapestre</figcaption>
+                                </figure>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep5.JPG" class="lightbox">
+                                        <figure>
+                                    <img src="images/galeriakep5.JPG" alt="" class="card-img-top">
+                                <figcaption class="figure-caption">Dunán közlekedő hajó</figcaption>
+                                </figure>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep6.JPG" class="lightbox">
+                                        <figure>
+                                    <img src="images/galeriakep6.JPG" alt="" class="card-img-top">
+                                <figcaption class="figure-caption">Duna</figcaption>
+                                </figure>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep7.JPG" class="lightbox">
+                                        <figure>
+                                    <img src="images/galeriakep7.JPG" alt="" class="card-img-top">
+                                <figcaption class="figure-caption">Island Hostel | 6 ágyas szoba</figcaption>
+                                </figure>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep8.JPG" class="lightbox">
+                                        <figure>
+                                    <img src="images/galeriakep8.JPG" alt="" class="card-img-top">
+                                <figcaption class="figure-caption">Közös kép</figcaption>
+                                </figure>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a href="images/galeriakep9.JPG" class="lightbox">
+                                        <figure>
+                                    <img src="images/galeriakep9.JPG" alt="" class="card-img-top">
+                                <figcaption class="figure-caption">Mákos Guba Bistro</figcaption>
+                                </figure>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
         </div>
     </section>
 
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="./js/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 </body>
 </html>

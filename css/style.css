@@ -27,6 +27,7 @@ header p{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 #sec2{
     height: 100vh;
@@ -64,7 +65,7 @@ header p{
     padding-top: 100px;
 }
 #sec4{
-    height: 100vh;
+    height: 170vh;
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/galeria.png") no-repeat;
     background-size: cover;
     background-position: center;
@@ -72,4 +73,7 @@ header p{
 }
 #sec4 h1{
     padding-top: 100px;
+}
+#sec4_div{
+    padding-top: 60px;
 }
