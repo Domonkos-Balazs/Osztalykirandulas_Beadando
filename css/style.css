@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    height: 94vh;
+    height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/hatter.png") no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,4 +22,31 @@ header h1{
 header p{
     font-size: 30px;
     margin: 18px 0;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#sec2{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/terv.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#sec2_div{
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+#sec2_div h1{
+    text-align: center;
+    color: #fff;
+    font-size: 66px;
+}
+.table{
+    background: rgba(255, 255, 255, 0.85);
+}
+.table td{
+    padding: 20px;
 }
