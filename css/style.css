@@ -52,8 +52,14 @@ header p{
 }
 #sec3{
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/terv.png") no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/utazas.png") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+#sec3 h1{
+    padding-top: 100px;
+}
+.mb-4{
+    padding-top: 100px;
 }
